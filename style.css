@@ -1218,6 +1218,7 @@ cursor:pointer;
        position:relative;
        overflow:hidden;
        padding:3px;
+       cursor:pointer;
    }
    .ham>div{
        background:black;
