@@ -131,10 +131,9 @@ align-self:flex-end;
     z-index: 2;
 }
 .component-desc{
-    margin-left:1.2em;
     padding-bottom: 1rem;
-    margin-bottom:2rem;
     border-bottom:1px solid #f2f2f2; 
+    margin: 0px 0px 2rem 1.2em;
 }
 .mg-bt-1rem{
 margin-bottom:1rem;
