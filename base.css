@@ -187,7 +187,6 @@ body {
     margin: 1em;
     border: none;
     letter-spacing: 0.3px;
-
     border-radius: 5px;
     cursor: pointer;
     background: white;
@@ -223,7 +222,6 @@ body {
     font-size: 25px;
     border: none;
     cursor: pointer;
-
     position: relative;
     margin: 0.5em;
     background: none;
@@ -312,7 +310,6 @@ body {
     border-radius: 50%;
     border: none;
     cursor: pointer;
-
     width: 57px;
     height: 57px;
     margin: 5px 0;
@@ -342,7 +339,6 @@ body {
     color: white;
     border-radius: 50%;
     cursor: pointer;
-
     width: 57px;
     height: 57px;
     padding: 0 0 0 0;
@@ -481,7 +477,6 @@ body {
 .cards-wishcont {
     position: absolute;
     background-color: white;
-    ;
     bottom: 80px;
     width: 100%;
     height: 100px;
@@ -534,8 +529,6 @@ body {
     width: 210px;
     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     position: relative;
-
-
 }
 
 .cards-t1:hover {
@@ -588,11 +581,9 @@ body {
 
 .cards-t1>.cart {
     width: 92%;
-
     font-size: 14px;
     border: 1px solid rgb(186, 186, 186);
     color: #282c3f;
-
     margin: 0px 4% 5px 4%;
 }
 
@@ -669,7 +660,6 @@ body {
 /*responsive image*/
 
 .responsive-img {
-
     min-width: 200px;
 }
 
@@ -720,11 +710,7 @@ body {
 /*input text*/
 .input {
     position: relative;
-
     padding-top: 20px;
-
-
-
 }
 
 .input .input-text {
@@ -737,7 +723,6 @@ body {
     padding: 12px;
     border-radius: 5px;
     width: 50%;
-
     font-size: inherit;
     box-shadow: none;
     margin: 1em 0;
@@ -803,16 +788,12 @@ body {
 
 /* input-validation*/
 
-
-
-
 /*textbox*/
 
 .textbox {
     max-width: 80%;
     min-width: 200px;
     margin-top: 20px;
-
 }
 
 .textbox>textarea {
@@ -839,7 +820,6 @@ body {
     resize: none;
     border-radius: 5px;
     border: none;
-
     background: #f3f4f6;
     transition: height 0.3s ease, transform 0.3s ease;
 }
@@ -889,9 +869,6 @@ body {
 }
 
 
-
-
-
 /*list in reverse----------------------------------------*/
 
 .list-stacked {
@@ -901,7 +878,6 @@ body {
 }
 
 .list-notification>li {
-
     max-height: 150px;
     min-height: 100px;
     min-width: 350px;
@@ -919,8 +895,6 @@ body {
     width: 100%;
     padding: 5px 5px;
     overflow: hidden;
-
-
 }
 
 .list-notification>li>i {
@@ -946,7 +920,6 @@ body {
 
 .modal {
     width: 100%;
-
     height: 100vh;
     position: relative;
     top: 0;
@@ -1011,7 +984,6 @@ body {
 
 /*modal with remove------------------------------------*/
 
-.modal-remove {}
 
 .modal-remove>.modal-content>div:last-child {
     position: absolute;
@@ -1023,7 +995,7 @@ body {
 
 .modal-remove>.modal-content>div:last-child:hover {
     background: #f2f2f2;
-    ;
+    
 }
 
 
@@ -1073,7 +1045,6 @@ body {
 .grid-2col {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
     background: #f2f2f2;
 }
 
@@ -1209,7 +1180,6 @@ body {
 }
 
 .toast>i {
-
     position: absolute;
     top: 38%;
     transform: translateX(-50%);
@@ -1218,7 +1188,6 @@ body {
 }
 
 .toast:before {
-
     font-family: fontAwesome;
     font-size: 20px;
     margin-right: 10px;
@@ -1325,7 +1294,6 @@ body {
 .ham {
     width: 50px;
     height: 50px;
-
     position: relative;
     overflow: hidden;
     padding: 3px;
@@ -1389,14 +1357,12 @@ body {
 
 
 .ham-t1 input[type="checkbox"]:checked~span:nth-of-type(2) {
-
     transform-origin: top;
     transform: rotatez(-45deg)
 }
 
 
 .ham-t1 input[type="checkbox"]:checked~span:nth-of-type(3) {
-
     transform-origin: bottom;
     width: 50%;
     transform: translate(30px, -11px) rotatez(45deg);
@@ -1493,7 +1459,6 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 1.2em;
-
     color: #818181;
     display: block;
     transition: 0.3s;
