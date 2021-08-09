@@ -112,7 +112,7 @@ button{
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    background:url("bg.svg");
+    background:url("./assets/bg.svg");
     background-size:100vw 100vh;
 }
 .landing-page div{
